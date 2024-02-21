@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .k{
+            height:200px;
+            width: 500px; 
+            background-color: blanchedalmond;
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows:70px 70px 70px;
+            text-align: center;
+
+         }
+         .g{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            background-color: deepskyblue;
+            border: solid blue;
+        }
+        .g1{
+            grid-column-start: 1;
+            grid-column-end:2;
+            grid-row-end:4;
+            grid-row-start:2;
+            border: solid blue;
+            background-color: deepskyblue;
+        }
+        .g2{
+            background-color: deepskyblue;
+            border: solid blue;
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+            } 
+            .g3{
+                background-color: deepskyblue;
+                border: solid blue;
+        
+            grid-column-end: 5;
+            }
+        .g4{
+            background-color: deepskyblue;
+            border:solid blue;
+            grid-column-start:2 ;
+            grid-column-end:5 ;
+        }
+    </style>
+</head>
+<body>
+    <div class="k">
+        <div class="g">Header</div>
+        <div class="g1">Menu</div>
+        <div class="g2">Main</div>
+        <div class="g3">Right</div>
+        <div class="g4">Footer</div>
+        
+
+    </div>
+</body>
+</html>
